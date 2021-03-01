@@ -1,0 +1,331 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: whitesmoke;
+    
+}
+
+/* qaybta guud ee lagu qaabaynayo habdhiska websitka */
+
+
+.container 
+{
+   width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+
+/* Qaybta flex boxka  */
+.mother
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.child
+{
+   
+    margin: 10px;
+    padding: 20px;
+    width: 40%;
+    
+}
+
+.child-2
+{
+    margin: 10px;
+    padding: 20px;
+    width: 15%; 
+    background-color:white;
+    border-radius: 30px;;
+    box-shadow: 10px 10px grey; 
+   
+   
+}
+.child-2 img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.child-2 p
+{
+    font-style: italic;
+}
+.child-2 h3 
+{
+    color: #4189dd;
+}
+.LAST 
+{
+    background-color: black;
+    text-align: center;
+    color:white
+    
+  
+}
+
+
+
+
+.LAST h2
+{
+ 
+color:white;
+
+
+ 
+}
+
+/* qaybta iconska */
+
+.LAST img
+{
+    width: 20px;
+    height: 20px;
+    margin:20px;
+  
+  
+   
+   
+}
+
+
+
+/* Qaybta Videos ka  */
+
+video /*  elimint vidoe */
+{
+    width: 320px;
+    height: 240px; 
+    
+}
+
+.vone p
+{
+    width: 320px;
+    text-align: justify;
+
+}
+
+
+
+/* Qaybta Headerka  */
+
+header
+{
+    background-image: url(img/);
+    background-color: #4189dd;
+}
+
+
+.sawirka{
+
+    float: left;
+    border-radius: 20%;
+    
+}
+
+
+/* Qaybta navigation barka  */
+
+nav ul
+{
+    margin:10px;
+    padding:20px;
+    text-decoration:none;
+    float: right;
+}
+
+nav li 
+{
+    display: inline;
+    padding: 0 10px 0 10px;
+    
+}
+
+nav a 
+{
+    text-decoration: none;
+    color:white
+    
+}
+
+nav a:hover
+{
+    color: red;
+}
+
+
+
+.imgs
+{
+    display: inline; 
+     border-radius: 50%;
+    width: 200px;
+     height: 200px; 
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+     
+     
+}
+
+/* Qaybta Sections ka */
+
+
+
+
+
+
+.sone
+{
+    background-color: #4189dd;
+   
+    height:  500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    
+  }
+
+
+.sone input[type="email"]
+
+{
+    margin:10px;
+    padding:15px;
+}
+
+.sone input[type="button"]
+{
+    margin:10px;
+    padding:15px;
+    width: 100px;
+    background-color:white;
+
+   border-radius: 30px;
+}
+
+.input
+{
+    float: right;
+}
+
+
+
+
+.sone h1{
+    font-size: ;
+}
+  .stwo
+  {
+
+  }
+  .sthree
+  {
+      background-color:  #4189dd;
+  }
+
+
+  /* Qaybta formska */
+
+
+  form
+{
+    text-align: center;
+    margin-top: 100px
+}
+
+input {
+    border:  #4189dd solid ;
+
+}
+form input[type="text"]
+{
+    margin:10px;
+    padding:15px;
+  
+}
+form input[type="password"]
+{
+    margin:10px;
+    padding:15px;  
+}
+
+form input[type="email"]
+{
+    margin:10px;
+    padding:15px;  
+}
+
+form input[type="button"]
+{
+    margin:10px;
+    padding:15px;
+    width: 190px;
+    background-color: #4189dd;
+    border-radius: 50px;
+    color: white;
+    border:  black solid ;
+
+}
+
+
+
+
+
+
+
+/* Qyabta History  ama taariikhda */
+.daacad
+{
+
+   text-align: justify;
+   width: 75%;
+  
+}
+
+
+.daacad h2  
+{
+    color: red;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+
+
+.daacad img 
+{
+   
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    margin-right:auto;
+    margin-left: auto;
+     display: block;
+
+}
+
+
+
+
+
+
+
+
